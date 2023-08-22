@@ -1,7 +1,17 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+body {
+  margin: 0;
+  padding: 0; 
+}
 
+:root {
+  margin-top: 90px;
   background-color: #f2f2f2;
+  height: calc(100vh - 90px);
+
+  --primary-color: #FF5722;
+  --secondary-color: #616161;
+  --links-color: #2196F3;
+  --progress-color: #8BC34A;
+  --notification-color: #FFC107;
+  --shaded-icon: rgba(189, 189, 189, 0.5);
 }

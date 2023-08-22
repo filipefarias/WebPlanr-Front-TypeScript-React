@@ -1,19 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
+import Aside from './components/Aside/Aside'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [asideView, setView] = useState(false)
+  const handleState = () => {setView(!asideView)}
 
   return (
     <>
       <Header />
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <Aside state={asideView} setState={handleState} />
     </>
   )
 }

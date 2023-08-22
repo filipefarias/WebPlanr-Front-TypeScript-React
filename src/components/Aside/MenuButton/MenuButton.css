@@ -1,0 +1,53 @@
+button.menu-button {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 1px 2px 11px 1px rgba(0,0,0,0.4);
+    opacity: 1;
+    transition: opacity 0.3s ease 0s;
+    display: inline-block;
+    overflow: hidden;
+}
+
+button > p {
+    font-size: 1.5rem;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+}
+
+button.toggle-aside {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);   
+}
+
+button.toggle-aside:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: background-color, 0.3s ease 0s ;
+}
+
+button.create-task {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+button.create-task:hover {
+    opacity: 0.8    ;
+}
+
+button.board {
+    background-color: var(--secondary-color);
+    color: var(--shaded-icon);
+}
+
+button.board:hover {
+    background-color: var(--links-color);
+    color: #000;
+    transition: background-color, 0.3s ease 0s ;
+}

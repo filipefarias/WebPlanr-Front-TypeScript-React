@@ -9,6 +9,7 @@ header.site-header {
     justify-content: space-between;
     align-items: center;
     
+    border-bottom: solid 10px #FF5722;
 
     background-color: #616161 ;
 }

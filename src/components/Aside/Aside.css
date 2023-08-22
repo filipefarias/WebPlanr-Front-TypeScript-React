@@ -1,0 +1,22 @@
+.site-aside {
+    background-color: #616161;
+    margin: 0;
+    padding: 0;
+    height: calc(100vh - 90px);
+    box-sizing: border-box;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site-aside.opened-aside {
+    width: 200px;
+    transition: width 1s;
+}
+
+.site-aside.collapsed-aside {
+    width: 60px;
+    transition: width 1s;
+}
