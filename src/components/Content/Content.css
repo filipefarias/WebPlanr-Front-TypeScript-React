@@ -1,0 +1,12 @@
+section.site-content {
+    height: 1hv;
+    background-color: #CCC;
+    border-top: 1px solid #4446;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: auto;
+}

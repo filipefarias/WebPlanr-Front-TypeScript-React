@@ -1,5 +1,7 @@
 .site-aside {
     background-color: #616161;
+    border-top: 1px solid #4446;
+    border-right: 1px solid #4446;
     margin: 0;
     padding: 0;
     height: calc(100vh - 90px);
@@ -13,10 +15,10 @@
 
 .site-aside.opened-aside {
     width: 200px;
-    transition: width 1s;
+    transition: width 0.5s;
 }
 
 .site-aside.collapsed-aside {
     width: 60px;
-    transition: width 1s;
+    transition: width 0.5s;
 }
